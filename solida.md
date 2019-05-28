@@ -18,7 +18,7 @@ Given that each project can differ for pipeline code, input data, workflow confi
 
 Download             |  Setup             |  Deploy
 :-------------------------:|:-------------------------:|:-------------------------:
-![](solida/downl.png)  |  ![](solida/setup.png)  |  ![](solida/depl.png)
+![](images/downl.png)  |  ![](images/setup.png)  |  ![](images/depl.png)
 
 
 
@@ -98,7 +98,7 @@ without password (SSH Key-Based Authentication)
 Solida provides a bash script, _**run.project.sh**_, to facilitate the 
 workflow execution.  
 
-![](solida/run.png)
+![](images/run.png)
 
 ### **NEW FEATURE !**
 We recently released a Django-based Graphical Interface for **SOLIDA**.
