@@ -3,12 +3,12 @@
 
 # SOLIDA
 
-To facilitate the reproducibility and portability of NGS pipelines, we have develop **[SOLIDA]()**,  a Python command-line tool that can easily organize the deployment, the data management and the execution of a Snakemake-based workflow.
+To facilitate the reproducibility and portability of NGS pipelines, we have develop **[SOLIDA](https://github.com/solida-core/solida.git)**,  a Python command-line tool that can easily organize the deployment, the data management and the execution of a Snakemake-based workflow.
 
 
 ### What is SOLIDA?
 
-SOLIDA is a tool that can easily bootstrap any Snakemake workflow organizing its activity in different properly configured projects. 
+**SOLIDA** is a tool that can easily bootstrap any Snakemake workflow organizing its activity in different properly configured projects. 
 
 Given that each project can differ for pipeline code, input data, workflow configuration, virtual environment and/or working folder, SOLIDA is able to manage all these tasks in a very simple way.
 
@@ -95,8 +95,6 @@ _--connection_ is the type of connection to use
 without password (SSH Key-Based Authentication)
 
 ### Script to execute the workflow
-Solida provides a bash script, _**run.project.sh**_, to facilitate the 
-workflow execution.  
 
 ![](images/run.png)
 
