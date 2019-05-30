@@ -2,133 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fccf3f9a-e140-45d9-8964-7e0fa8c9d982" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/alerts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/definitions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/glossary.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/samplelist.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/sidebars/docs_sidebar.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/strings.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/tags.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/terms.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/topnav.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/archive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/callout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/custom/getting_started_series.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/custom/getting_started_series_next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/custom/series_acme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/custom/series_acme_next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/custom/usermap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/custom/usermapcomplex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/disqus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/feedback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/google_analytics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/head_print.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/important.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/initialize_shuffle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/inline_image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/note.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/taglogic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/tip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/topnav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/warning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default_print.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/none.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/page_print.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/boxshadowproperties.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/customstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/modern-business.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/printstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/syntax.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/theme-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/theme-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/dima.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/diva-required_files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/diva-snakemake.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/diva-solida.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/diva-workflow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/diva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/company_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/crs4_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/depl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/diva.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/downl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/next_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/images/setup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/js/customscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/js/jekyll-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/js/jquery.ba-throttle-debounce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/js/jquery.navgoco.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/js/jquery.shuffle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/js/toc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/pipeline_struct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/pipeline_structure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/solida_cli.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/solida_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/boxshadowproperties.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/customstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/modern-business.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/printstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/syntax.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/company_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/crs4_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/depl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/diva.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/downl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/next_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/setup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/customscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jekyll-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.ba-throttle-debounce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.navgoco.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.shuffle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/toc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/handbook/pipeline_struct.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pipelines/dima/dima.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pipelines/diva/diva-required_files.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pipelines/diva/diva-snakemake.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pipelines/diva/diva-solida.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pipelines/diva/diva-workflow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pipelines/diva/diva.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/solida/solida_cli.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/solida/solida_gui.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/boxshadowproperties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/customstyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/modern-business.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/printstyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/theme-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/theme-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dima.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/diva-required_files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/diva-snakemake.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/diva-solida.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/diva-workflow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/diva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/company_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/crs4_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/depl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/diva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/downl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/next_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/setup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/customscripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/jekyll-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/jquery.ba-throttle-debounce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/jquery.navgoco.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/jquery.shuffle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/toc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/pipeline_struct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/pipeline_structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/solida_cli.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/solida_gui.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,14 +74,18 @@
         <entry file="file://$PROJECT_DIR$/search.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="160" selection-start-line="160" selection-end-line="160" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -176,6 +97,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -243,19 +165,33 @@
       <option name="presentableId" value="Default" />
       <updated>1559234870679</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1559235350517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559235350517</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1559235493598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559235493599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="22" width="1856" height="1101" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -269,6 +205,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -280,12 +220,16 @@
     <entry file="file://$PROJECT_DIR$/search.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
