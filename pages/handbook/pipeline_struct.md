@@ -1,6 +1,16 @@
+---
+title: Pipeline Handbook
+keywords: solida, solida-core, bioinformatics pipelines,
+tags: [pipeline_handbook]
+summary: ""
+sidebar: docs_sidebar
+permalink: pipeline_struct.html
+folder: handbook
+---
+
 ## PIPELINE STRUCTURE
 
-[solida-core]() pipelines are based on Snakemake and for this reason are organized in a defined structure of files and directories.
+[solida-core](https://github.com/solida-core) pipelines are based on Snakemake and for this reason are organized in a defined structure of files and directories.
 
 The content of a general pipeline directory an be summarized as follows:
 
@@ -12,14 +22,14 @@ PIPELINE FOLDER
     ├── config.yaml
     |
     ├── envs
-    │   ├── rule_a_env.yaml
-    │   └── rule_b_env.yaml
+    │   ├── rule_a_env.yaml
+    │   └── rule_b_env.yaml
     |
     ├── rules
-    │   ├── rules_file_1.smk
-    │   ├── rules_file_2.smk
-    │   └── scripts
-    │       └── personal_script_a
+    │   ├── rules_file_1.smk
+    │   ├── rules_file_2.smk
+    │   └── scripts
+    │       └── personal_script_a
     |
     ├── environment.yaml
     |
@@ -37,10 +47,10 @@ genome_fasta: "reference_files_path/my_genome.fasta"
 mapping_parameters: "-A 20 -C 40"
 ```
 shows the specification of a fasta file with its path and a couple of parameters for an hypotetical mapping step.
- 
+
 Snakemake allows accessing information contained in the configfile via the global variable `config`:
 ```
-config.get("genome_fasta") 
+config.get("genome_fasta")
 config.get("mapping_parameters")
 ```
 In this way it is possible the separation between general structure of an analysis workflow and the related parameters that can be edited in a specific configuration file.
@@ -76,7 +86,7 @@ rule NAME:
     script:
         "path/to/script.py"
 ```
-The script path is always relative to the Snakefile (in contrast to the input and output file paths, which are relative to the working directory). 
+The script path is always relative to the Snakefile (in contrast to the input and output file paths, which are relative to the working directory).
 Inside the script, you have access to an object `snakemake` that provides access to the same objects that are available in the `run` and `shell` directives (input, output, params, wildcards, log, threads, resources, config), e.g. you can use `snakemake.input[0]` to access the first input file of above rule.
 
 Apart from Python scripts, this mechanism also allows you to integrate R and R Markdown scripts with Snakemake:
@@ -91,19 +101,19 @@ rule NAME:
     script:
         "path/to/script.R"
 ```
-In the R script, an S4 object named `snakemake` analog to the Python case above is available and allows access to input and output files and other parameters. 
+In the R script, an S4 object named `snakemake` analog to the Python case above is available and allows access to input and output files and other parameters.
 Here the syntax follows that of S4 classes with attributes that are R lists: we can access the first input file with `snakemake@input[[1]]` (note that the first file does not have index 0 here, because R starts counting from 1).
 
 
-### Envs 
-With Snakemake it is possible to define isolated software environments per rule. 
-Upon execution of a workflow, the [Conda package manager](https://conda.io/en/latest/) is used to obtain and deploy the defined software packages in the specified versions. 
+### Envs
+With Snakemake it is possible to define isolated software environments per rule.
+Upon execution of a workflow, the [Conda package manager](https://conda.io/en/latest/) is used to obtain and deploy the defined software packages in the specified versions.
 
-Packages will be installed into your working directory, without requiring any admin/root priviledges. 
+Packages will be installed into your working directory, without requiring any admin/root priviledges.
 
-Given that conda is available on your system (see [Miniconda](https://docs.conda.io/en/latest/miniconda.html)), to use the Conda integration, add the `--use-conda` flag to your workflow execution command, e.g. `snakemake --cores 8 --use-conda`. 
+Given that conda is available on your system (see [Miniconda](https://docs.conda.io/en/latest/miniconda.html)), to use the Conda integration, add the `--use-conda` flag to your workflow execution command, e.g. `snakemake --cores 8 --use-conda`.
 
-When `--use-conda` is activated, Snakemake will automatically create software environments for any used wrapper (see [Wrappers](https://snakemake.readthedocs.io/en/stable/snakefiles/modularization.html#wrappers)). 
+When `--use-conda` is activated, Snakemake will automatically create software environments for any used wrapper (see [Wrappers](https://snakemake.readthedocs.io/en/stable/snakefiles/modularization.html#wrappers)).
 
 Further, you can manually define environments via the `conda` directive:
 ```
@@ -151,7 +161,7 @@ In this case we have 3 desired outputs:
 
 From these files, Snakemake performs a back-check for input/output matches. If the BAM file is inlcuded in VCF file generation steps, is not required to be indicated in the rule all, because that clade of the workflow is aimed at producing the VCF.
 
-On the other hand, because the MULTIQC report is not input of any dependency for generating the VCF file, it needs to be indicated. Is like a collateral part of the main workflow. 
+On the other hand, because the MULTIQC report is not input of any dependency for generating the VCF file, it needs to be indicated. Is like a collateral part of the main workflow.
 
 Other two sections of Snakefile need to be mentioned.
 
@@ -163,8 +173,8 @@ import pandas as pd
 ## USER FILES ##
 samples = pd.read_csv(config["samples"], index_col="sample", sep="\t")
 ```
-The above section represent an example of library loading and its usage in creating variables. 
-In this case we used pandas to read a table in which we stored sample names. 
+The above section represent an example of library loading and its usage in creating variables.
+In this case we used pandas to read a table in which we stored sample names.
 Notice that the complete path and the filename are declared in the configfile under the `samples` entry.
 
 Finally,files including rules to be executed by a Snakefile need to be "included" with the `include` statement as follows:

@@ -1,2 +1,0 @@
-# docs
-solida-core documentation

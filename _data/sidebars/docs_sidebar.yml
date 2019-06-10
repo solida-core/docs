@@ -1,0 +1,64 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: solida-docs 
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: solida-core
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+  - title: Pipeline Handbook 
+    output: web, pdf
+    folderitems:
+
+    - title: Structure
+      url: /pipeline_struct.html
+      output: web, pdf
+
+
+  - title: Available Pipelines
+    output: web, pdf
+    folderitems:
+
+    - title: DiVA (DNA Variant Analysis) 
+      url: /diva.html
+      output: web, pdf
+
+    - title: DiMA (DNA Mapping) 
+      url: /dima.html
+      output: web, pdf
+
+  - title: solida
+    output: web, pdf
+    folderitems:
+    
+    - title: command-line tool
+      url: /solida_cli.html
+      output: web, pdf
+
+    - title: GUI
+      url: /solida_gui.html
+      output: web, pdf
+
+
