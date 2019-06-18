@@ -28,7 +28,7 @@ You need [docker-engine](https://docs.docker.com/engine/installation/)
 and [docker-compose](https://docs.docker.com/compose/install/)  
 See [docker-compose docs](https://docs.docker.com/compose/reference/overview/)
 
-For deploying in remote host see [sss-keygen](https://www.ssh.com/ssh/keygen/)
+For deploying in remote host see [ssh-keygen](https://www.ssh.com/ssh/keygen/)
 
 ## Quick start
 
