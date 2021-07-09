@@ -54,7 +54,7 @@ mkdir ~/solida-core/.tmp        # path where storing temporary files
 
 Clone the repository:  
 ```bash
-git clone https://github.com/ratzeni/solida-gui.git
+git clone https://github.com/solida-core/solida-gui.git
 ```
 
 Cd into the docker directory:  
